@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Personal Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fd1bafe3c5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+        <div id="header">
+        <div class="container">
+             <nav id="navbar" class="nav">
+            <img src="images/Shey_max Logo.png.png" alt="Shey_max Logo" class="logo" />
+            <ul id="sidemenu">
+              <li><a href="#welcome-section">Home</a></li>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div id="welcome-section" class="header-text">
+            <h4>Hello, my name is</h4>
+            <h1>Adeshina <span>Michael</span></h1>
+            <h3>I'm a Product Designer and Web Developer.</h3>
+          </div>
+        </div>
+      </div>
+
+      <!----About me section-->
+      <section id="about-me">
+        <div class="main">
+            <img src="/images/Final-year-defence.png.jpeg" alt="Me and my friends at Obafemi Awolowo University after final year defence">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>UX/UI Designer & <span>Developer</span></h5>
+                <p>
+                    Creative UX/UI designer and developer skilled in user research, UI prototyping and adobe suite. 
+                    Studied electrical & electronic engineering seeking to build experience and deliver web 
+                    excellence. Have completed several projects including design of a Music streaming mobile app 
+                    & player, project management software website and authentication library responsive web for 
+                    both mobile and desktop. Over 50+ low-fidelity & high-fidelity screen and developing a landing 
+                    page, registration and survey form using HTML5 and CSS.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Hard Skills</span><br>Adobe Photoshop & Illustration,
+                            User Research & Writing,
+                            UI Prototyping & Wireframing,
+                            Figma, InVision & Sketch,
+                            HTML5, CSS & JavaScript,
+                            NodeJS,
+                            Responsive Design,
+                            Product testing,
+                            Project management.</li>
+                        <li><span>Soft Skills</span><br>Problem-solving,
+                            Interpersonal,
+                            Time management,
+                            Teamwork & Collaboration,
+                            Leadership,
+                            Active listening, 
+                            Creative thinking,
+                            Detailed oriented & Flexibility,
+                            Communication.
+                            </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sept 2021 - Present</span><br>UX/UI Designer & Developer Freelancer.</li>
+                        <li><span>Aug 2019 - Feb 2020</span><br>Supervisory Control & System Operator at TCN.</li>
+                        <li><span>Jan 2019 - March 2019</span><br>Research Assistant (Power and Machine Unit) at OAU.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017 - 2022</span><br>B.Sc. in Electronic & Electrical Engineering at Obafemi Awolowo University, Ile-Ife, Nigeria.</li>
+                        <li><span>2013 - 2015</span><br>National Diploma in Electrical Engineering at The Polytechnic, Ibadan, Nigeria.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!---------------------My experience section start---------->
+      <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-pen"></i>
+                    <h2>UX/UI Designer</h2>
+                    <p>• Conducted a thorough UX research and designed over 60+ high and low 
+                        fidelities interactive user-friendly design including prototyping with usability 
+                        testing for an online music streaming mobile app and player.<br>
+                        • Designed a project management software web responsive design (SaaS) with
+                        25+ pagesincluding the landing page, dashboard page, contact page and pricing 
+                        page & 30+ components following the standard style and guideline principles.<br>
+                        • Collaborated closely & work cross-functionality with UX designer and Web 
+                        developer team to design, develop and deploy a live website on Authentication 
+                        Library Web (Auth-Wiki).<br>
+                        • Designed and developed a score sheet, registration and survey form for 
+                        education organization using HTML5 and CSS including developing of a Project 
+                        management software landing page from my UI design portfolio.
+                        </p>
+                    <a href="#">Hire me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Supervisory Control & System Operator</h2>
+                    <p>• Determined causes of operating errors and approached the problems using 
+                        logic and reasoning from the knowledge of power system to identify the 
+                        problem which led to reduction of 21% in the system collapsed.<br>
+                        • Worked with the maintenance crew to performed routine maintenance on 73 
+                        different equipment's in the switchyard conducting tests and inspections to 
+                        evaluate the quality and performance of the equipment.<br> 
+                        • Managed assigned project with little oversight from the project coordinator to 
+                        ensured there's balance between the energy generated and transmitted power 
+                        in the electrical power transformer for better operation of the system while also 
+                        assisting the communication department to carried out carrier test on 
+                        communication equipment's.
+                        </p>
+                    <a href="#">Hire me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Research Assistant (Power and Machine Unit)
+                    </h2>
+                    <p>• Conducted statistical research while simultaneously assisting 2 
+                        Postgraduate researchers with formulating study objectives, 
+                        developing surveys, collecting/ analyzing data and interpreting 
+                        findings<br> 
+                    • Managed assigned projects with little oversight from coordinator,
+                      preparing data collection instruments for data analysis. </p>
+                    <a href="#">Hire me</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!--------------My portfolio section starts-------------->
+      <div id="portfolio">
+        <div class="project-tile">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/Magna Thumbnail.png">
+                    <div class="layer">
+                        <h3>Project Management Software Web Design (Saas)</h3>
+                        <p>Magna is a project management software  design to be used by a wide range of industries to help plan, organize, manage resource tools and develop resource estimate for project planning, resource collation and scheduling for project manager and teams.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/MobileStreaming.png.png">
+                    <div class="layer">
+                        <h3>Music Streaming & Player Mobile App</h3>
+                        <p>Vibez is a music streaming mobile app and player suitable for listening to music, sharing songs to friends and family with unique features to solve the current listener struggle.</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/Thumbnail size.png">
+                    <div class="layer">
+                        <h3>Authentication Library Web Design</h3>
+                        <p>Auth-wiki is an authentication library website design to be used by a wide range of developers and website creators to enable them interacts with code samples and download them for the use of their project</p>
+                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!--------------contact starts here------------->
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>adeshinamichael591@gmail.com</p>
+                    <p>+2348114682648</p>
+                    <div class="social-icons">
+                        <a href="https://www.behance.net/michaeladeshina"><i class="fa-brands fa-square-behance"></i></a>
+                        <a href="https://github.com/sheyimax"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/michael-adeshina-139281199/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/Michael-Adeshina-CV.pdf.pdf" download class="btn1 btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn1 btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Shey_max. 'Made by myself, 2022.</p>
+        </div>
+      </div>
+
+
+      <script>
+
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+          }
+
+      </script>
+
+      <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+      </script>
+  </body>
+  </html>
